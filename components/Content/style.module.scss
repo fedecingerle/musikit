@@ -1,0 +1,68 @@
+.userSelectContainer {
+  width: 64%;
+  padding: 20px 50px;
+  min-height: 800px;
+  background: linear-gradient(#000000 0.5%, #1c1c1c, #1c1c1c, #1c1c1c);
+
+  .userSelect {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .myContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+    .likeContainer {
+      background: linear-gradient(
+        to bottom right,
+        #480df3,
+        #6544ef,
+        #7661eb,
+        #8176e8,
+        #8d8be5
+      );
+      margin: auto;
+      width: 439px;
+      height: 285px;
+      border-radius: 8px;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: start;
+      letter-spacing: normal;
+
+      .likeTitle {
+        font-size: 32px;
+        line-height: 36px;
+        text-align: start;
+        letter-spacing: -1.28px;
+        margin: 20px 50px;
+      }
+
+      .likeTotal {
+        margin: 20px 50px;
+      }
+
+      .div {
+        margin-top: 85px;
+        .likedSongs {
+          text-align: center;
+          justify-content: center;
+          background: -webkit-linear-gradient(
+            to bottom right,
+            #480df3,
+            #6544ef,
+            #7661eb,
+            #8176e8,
+            #8d8be5
+          );
+          background: linear-gradient(to bottom right, #480df3, white, #8d8be5);
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+      }
+    }
+  }
+}

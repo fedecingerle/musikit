@@ -1,0 +1,119 @@
+.likeContainer {
+  display: flex;
+  flex-direction: column;
+  width: 64%;
+  .titleSection {
+    background: linear-gradient(to bottom, #51399d, #3b2b72, #2d2055 100%);
+    height: 300px;
+    display: flex;
+    .heartContainer {
+      width: 232px;
+      height: 232px;
+      box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 60px 0px;
+      margin: 30px 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(
+        to bottom right,
+        #480df3,
+        #6544ef,
+        #7661eb,
+        #8176e8,
+        #8d8be5
+      );
+      i {
+        margin: auto;
+        font-size: 50px;
+      }
+    }
+    .textsContainer {
+      margin: 100px 0 30px;
+      display: flex;
+      flex-direction: column;
+
+      .subtitle {
+        font-size: 16px;
+      }
+      .title {
+        font-size: 70px;
+        font-weight: 800;
+      }
+      .userInfo {
+        display: flex;
+        align-items: center;
+        margin: 20px 0 0;
+        img {
+          border-radius: 50px;
+          width: 30px;
+          height: 30px;
+        }
+        div {
+          margin-left: 20px;
+          font-size: 16px;
+          color: #b3b3b5;
+          &:hover {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+  .container {
+    min-height: 800px;
+    width: 100%;
+    background: linear-gradient(to bottom, #20183b, #1a152c, #131313);
+    padding-top: 50px;
+    margin: auto;
+    .properties {
+      display: flex;
+      margin: auto;
+      width: 85%;
+      justify-content: space-between;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 1.2;
+      color: #b3b3b5;
+    }
+
+    tr {
+      border: 1px solid white;
+    }
+    .songsContainer {
+      width: 90%;
+      min-height: 60px;
+      display: flex;
+      align-items: center;
+      margin: auto;
+      color: #b3b3b5;
+      &:hover {
+        background-color: #2b2a2f;
+        color: white;
+      }
+      .title {
+        width: 220px;
+        height: auto;
+        margin-left: 15px;
+        font-size: 16px;
+        line-height: 25.6px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+      }
+      .album {
+        width: 220px;
+        height: 100%;
+        margin-left: 35px;
+      }
+      .date {
+        margin-left: 20px;
+        height: 100%;
+        width: 220px;
+      }
+      .time {
+        width: 100px;
+        text-align: center;
+      }
+    }
+  }
+}

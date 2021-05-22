@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  width: 200px;
+  top: 10px;
+  height: auto;
+  right: 20%;
+  padding: 10px;
+  background-color: black;
+  border-radius: 40px;
+
+  img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+  }
+  .userName {
+    margin: auto;
+  }
+}

@@ -1,0 +1,21 @@
+.nav {
+  display: none;
+  color: #b3b3b5;
+}
+
+@media (min-width: 750px) {
+  .nav {
+    background-color: black;
+    display: block;
+    width: 18%;
+    height: 100%;
+    .container {
+      position: fixed;
+
+      .likeContainer {
+        margin-top: 30px;
+        border-bottom: 0.5px solid #b3b3b5;
+      }
+    }
+  }
+}

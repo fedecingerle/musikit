@@ -1,0 +1,70 @@
+.playlistContainer {
+  display: flex;
+  align-items: center;
+  width: 420px;
+  height: 80px;
+  background-color: #2b2b2e7c;
+  cursor: pointer;
+  margin: 8px auto;
+  border-radius: 7px;
+  img {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    width: 80px;
+    height: 80px;
+  }
+  .name {
+    padding: 20px;
+  }
+}
+
+.container {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  cursor: pointer;
+  width: 207px;
+  height: 285px;
+  background-color: #131313;
+  border-radius: 5px;
+  &:hover {
+    background-color: #373737;
+  }
+  img {
+    margin-top: 5px;
+    margin: 10px auto 0;
+    border-radius: 5px;
+    width: 170px;
+    height: 175px;
+  }
+  div {
+    margin: auto;
+    text-align: left;
+    color: rgb(187, 187, 187);
+  }
+  .podcastName {
+    margin: 10px 10px 0;
+    text-align: left;
+    font-size: 14px;
+  }
+  .podcastPublisher {
+    margin: 0px 10px 10px;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .name {
+    text-align: center;
+  }
+
+  .artists {
+    font-weight: bold;
+  }
+}
+
+.populars {
+  img {
+    border-radius: 50%;
+  }
+}

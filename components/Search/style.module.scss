@@ -1,0 +1,25 @@
+.container {
+  width: 64%;
+  min-height: 800px;
+  background: linear-gradient(
+    #182368 0%,
+    #1c1c1c,
+    #1c1c1c,
+    #1c1c1c,
+    #1c1c1c 98%
+  );
+  padding-top: 50px;
+  .itemsContainer {
+    width: 95%;
+    margin: auto;
+    h3 {
+      font-size: 25px;
+      margin: 50px 20px 10px;
+    }
+    .items {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+  }
+}

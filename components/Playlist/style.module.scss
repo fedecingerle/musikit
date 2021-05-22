@@ -1,0 +1,11 @@
+.container {
+  margin: 10px 0;
+
+  .playlistName {
+    cursor: pointer;
+    margin: 10px 13px;
+    &:hover {
+      color: white;
+    }
+  }
+}
